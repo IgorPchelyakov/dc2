@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="ua">
+
+<head>
+	<title>DAYCOM</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css?_v=20220927204112">
+	<link rel="stylesheet" href="css/style.min.css?_v=20220927204112">
+	<link rel="shortcut icon" href="img/favicons.svg">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__menu menu" data-lp>
+					<button type="button" class="menu__icon icon-menu"><span></span></button>
+					<nav class="menu__body">
+						<div class="menu__actions">
+							<button class="menu__actions-btn" type="button" data-popup="#popup-serach"><span>Локація:
+								</span>Україна</button>
+							<button class="menu__actions-btn" type="button" data-popup="#popup-autorization"><span>Авторизація:
+								</span>увійти</button>
+						</div>
+						<div class="menu__navbar">
+							<div class="bredcrumbs">
+								<h5>Головне меню сайту</h5>
+							</div>
+							<ul class="menu__list">
+								<li class="menu__item"><a class="menu__link" href="../index.html"><span>Головні новини</span></a></li>
+								<li class="menu__item"><a class="menu__link" href="../single-page.html"><span>Новини
+											бізнесу</span></a></li>
+								<li class="menu__item"><a class="menu__link" href="#"><span>Спецтеми</span></a></li>
+								<li class="menu__item"><a class="menu__link" href="#"><span>Думки</span></a></li>
+							</ul>
+						</div>
+						<div data-spollers class="spollers">
+							<div class="bredcrumbs">
+								<h5>Додаткова інформація від нас</h5>
+							</div>
+							<div class="spollers__item">
+								<button type="button" data-spoller class="spollers__title"><span>I</span>Про нас<img src="img/icons/spoller-arrow-down.svg" alt="arrow"></button>
+								<div class="spollers__body">
+									<ul class="spoller__list">
+										<li class="spoller__list-item">
+											<a class="spoller__link" href="../about-us.html">Про нас</a>
+										</li>
+										<li class="spoller__list-item">
+											<a class="spoller__link" href="../editorship.html">Автори публікацій</a>
+										</li>
+										<li class="spoller__list-item">
+											<a class="spoller__link" href="../partnership.html">Угоди та партнерство</a>
+										</li>
+										<li class="spoller__list-item">
+											<a class="spoller__link" href="../workwithus.html">Працюйте з нами</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div class="spollers__item">
+								<button type="button" data-spoller class="spollers__title"><span>II</span>Розміщення реклами<img src="img/icons/spoller-arrow-down.svg" alt="arrow"></button>
+								<div class="spollers__body">
+									<ul class="spoller__list">
+										<li class="spoller__list-item">
+											<a class="spoller__link" href="../advertising.html">Публічна пропозиція</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div class="spollers__item">
+								<button type="button" data-spoller class="spollers__title"><span>III</span>Юридична
+									інформація<img src="img/icons/spoller-arrow-down.svg" alt="arrow"></button>
+								<div class="spollers__body">
+									<ul class="spoller__list">
+										<li class="spoller__list-item">
+											<a class="spoller__link" href="../service.html">Умови обслуговування</a>
+										</li>
+										<li class="spoller__list-item">
+											<a class="spoller__link" href="../content.html">Отримання та використання вмісту</a>
+										</li>
+										<li class="spoller__list-item">
+											<a class="spoller__link" href="../presentation_for_readers.html">Умови подання для
+												читачів</a>
+										</li>
+										<li class="spoller__list-item">
+											<a class="spoller__link" href="../comments_section.html">Розділ коментарів</a>
+										</li>
+										<li class="spoller__list-item">
+											<a class="spoller__link" href="../terms_of_sale.html">Умови продажу</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div class="spollers__item">
+								<button type="button" data-spoller class="spollers__title"><span>IV</span>Політика компанії<img src="img/icons/spoller-arrow-down.svg" alt="arrow"></button>
+								<div class="spollers__body">
+									<ul class="spoller__list">
+										<li class="spoller__list-item">
+											<a class="spoller__link" href="../editorial_politics.html">Редакційна політика</a>
+										</li>
+										<li class="spoller__list-item">
+											<a class="spoller__link" href="../privacy_politics.html">Політика конфіденційності</a>
+										</li>
+										<li class="spoller__list-item">
+											<a class="spoller__link" href="../сookie_politics.html">Політика щодо файлів cookie</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div class="spollers__item">
+								<button type="button" data-spoller class="spollers__title"><span>V</span>Мапа платформи<img src="img/icons/spoller-arrow-down.svg" alt="arrow"></button>
+								<div class="spollers__body">
+									<ul class="spoller__list">
+										<li class="spoller__list-item">
+											<a class="spoller__link" href="../maps.html">Україна</a>
+										</li>
+										<li class="spoller__list-item">
+											<a class="spoller__link" href="#">Poland</a>
+										</li>
+										<li class="spoller__list-item">
+											<a class="spoller__link" href="#">Eesti</a>
+										</li>
+										<li class="spoller__list-item">
+											<a class="spoller__link" href="#">Lietuva</a>
+										</li>
+										<li class="spoller__list-item">
+											<a class="spoller__link" href="#">Latvija</a>
+										</li>
+										<li class="spoller__list-item">
+											<a class="spoller__link" href="#">Deuschland</a>
+										</li>
+										<li class="spoller__list-item">
+											<a class="spoller__link" href="#">България</a>
+										</li>
+										<li class="spoller__list-item">
+											<a class="spoller__link" href="#">România</a>
+										</li>
+										<li class="spoller__list-item">
+											<a class="spoller__link" href="#">Česko</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="menu__contacts">
+							<div class="bredcrumbs">
+								<h5>Дзвінки з мобільних безкоштовні</h5>
+							</div>
+							<div class="menu__contact-phone">
+								<a href="tel:0980917013" class="menu__contact-link">098 091 70 13</a>
+							</div>
+							<div class="bredcrumbs">
+								<h5>Для електронного листування</h5>
+							</div>
+							<div class="menu__contact-email">
+								<a href="mailto:slizer13@gmail.com" class="menu__contact-link">slizer13@gmail.com</a>
+								<a href="mailto:slizer13@gmail.com" class="menu__contact-link">slizer13@gmail.com</a>
+							</div>
+							<div class="bredcrumbs">
+								<h5>Слідкуйте за нами у соціальних мережах</h5>
+							</div>
+							<div class="menu__contact-social">
+								<ul class="menu__contact-social-list">
+									<li class="menu__contact-social-item">
+										<a class="menu__contact-social-link icon-footer-telegram" href="#"></a>
+									</li>
+									<li class="menu__contact-social-item">
+										<a class="menu__contact-social-link icon-footer-viber" href="#"></a>
+									</li>
+									<li class="menu__contact-social-item">
+										<a class="menu__contact-social-link icon-footer-facebook" href="#"></a>
+									</li>
+									<li class="menu__contact-social-item">
+										<a class="menu__contact-social-link icon-footer-twitter" href="#"></a>
+									</li>
+									<li class="menu__contact-social-item">
+										<a class="menu__contact-social-link icon-footer-instagram" href="#"></a>
+									</li>
+									<li class="menu__contact-social-item">
+										<a class="menu__contact-social-link icon-youtube" href="#"></a>
+									</li>
+								</ul>
+							</div>
+							<div class="menu__contact-language">
+								<span>Мова сайту: </span>UA (українська)
+							</div>
+						</div>
+						<div class="menu__copyright">
+							<div class="menu__copyright-text">
+								<p>Дозволяється цитування матеріалів опублікованих на веб-сайті daycom.com.ua без отримання
+									попередньої згоди головної редакції за умови розміщення у тексті обов'язкового посилання на
+									daycom.com.ua </p>
+								<p>
+									Для інтернет-видань обов'язково розміщення прямого, відкритого для пошукових систем гіперпосилання
+									на статті та/або інший опублікований маетріал, що цитуються. Обов’язкова умова розміщення
+									відкритого для пошукових систем гіперпосилання не нижче другого абзацу в тексті або як джерело.
+									Порушення авторських та виняткових прав переслідується згідно із законодавством України.
+								</p>
+								<p>
+									<i>
+										Матеріали, опубліковані з маркуванням:
+										«Новини бізнесу», «Політичні новини», «Прес-реліз», «Офіційно», «Реклама» - публікуються на
+										правах
+										реклами
+									</i>
+								</p>
+							</div>
+							<div class="menu__copyright-bottom">
+								<div class="menu__copyright-copy">
+									​Copyright © daycom.com.ua Всі права захищено.
+								</div>
+								<div class="menu__copyright-version">
+									Version 1.0
+								</div>
+							</div>
+						</div>
+					</nav>
+					<div class="menu__logo">
+						<a class="menu__logo-link" href="../index.html">
+							<picture><source srcset="img/logo.webp" type="image/webp"><img class="menu__logo-img" src="img/logo.png" alt="logo"></picture>
+						</a>
+					</div>
+					<div class="menu__search" data-da=".menu__actions, 600, 0">
+						<form class="menu__search-form icon-search">
+							<input class="menu__search-input " type="text">
+							<button class="menu__search-btn" type="submit">
+								<img class="menu__search-img" src="img/icons/Search.svg" alt="search">
+							</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section class="single">
+				<div class="single__container">
+					<div class="single__content">
+						<h1 class="single__post-title">
+							Європейські лідери запевняють Україну в підтримці, але питання залишаються
+						</h1>
+						<p class="single__post-text">
+							Європейські лідери, які відвідують Київ, у четвер висловили підтримку тому, що Україна стане кандидатом на
+							членство в Європейському Союзі, демонструючи солідарність на тлі запитань щодо їхньої підтримки президента
+							Володимира Зеленського та його закликів до більш важкого озброєння, щоб компенсувати артилерійську перевагу
+							Москви.
+						</p>
+						<p class="single__post-text">
+							Президент Франції Еммануель Макрон, канцлер Німеччини Олаф Шольц та прем’єр-міністр Італії Маріо Драгі
+							слідують за безліччю європейських лідерів , які подорожували по суші до столиці України з забороненими
+							авіаперельотами з міркувань безпеки. Американський державний секретар Ентоні Дж. Блінкен та міністр оборони
+							Ллойд Дж. Остін III здійснили подорож у квітні.
+						</p>
+
+						<p class="single__post-text">
+							Пан Макрон сказав, що троє лідерів і президент Румунії Клаус Йоханніс, який також перебував в Україні,
+							підтримали надання Україні статусу кандидата в ЄС і що Франція доставить шість додаткових гаубиць «Цезар» у
+							найближчі тижні, крім 12, Франція вже поставила.
+
+						</p>
+						<p class="single__post-text">
+							"Ми є і залишимося на вашому боці в довгостроковій перспективі, щоб захищати ваш суверенітет, вашу
+							територіальну цілісність і вашу свободу", - сказав пан Макрон на прес-конференції в Києві. «Це наша мета,
+							іншої у нас немає, і ми її досягнемо».
+
+						</p>
+						<p class="single__post-text">
+							Пан Шольц у четвер також публічно висловив підтримку кандидатурі України в ЄС, заявивши, що він і його
+							колеги-європейські лідери прибули до Києва з чітким посланням, що «Україна належить до європейської сім’ї».
+
+						</p>
+						<p class="single__post-text">
+							Європейська комісія має оприлюднити офіційну рекомендацію щодо заявки України у п’ятницю, що стане ще одним
+							потенційним кроком до включення України у сферу впливу Західної Європи.
+
+						</p>
+						<p class="single__post-text">
+							Останніми днями в Україні зросла критика через уявлення, що європейські чиновники — і пан Макрон зокрема —
+							намагаються тиснути на Зеленського до мирних переговорів з Росією. Але в четвер лідери візиту наполягали на
+							тому, що будь-який час для миру буде в руках України. І пан Шольц сказав, що підтримує ідею, висловлену
+							також паном Макроном, що «Росія не може нав’язувати шлях до миру, вона не може давати Україні умови, які не
+							можуть бути прийняті ні Україною, ні нами».
+
+						</p>
+						<p class="single__post-text">
+							Європейські лідери також побували разом із паном Йоханнісом до Ірпіня, передмістя Києва, де слідчі вивчають
+							повідомлення про звірства Росії під час війни. Пан Шольц скаржився на руйнування, які завдає війна, і сказав
+							в Ірпіні: «Ще гірше, коли бачиш, наскільки безглуздим є насильство, яке ми тут спостерігаємо».
+
+						</p>
+						<p class="single__post-text">
+							Росія відкинула їхній візит як порожній символізм. Дмитро Медведєв, колишній президент Росії, який є
+							віце-головою Ради безпеки президента Володимира Путіна, у четвер зневажив лідерів Франції, Німеччини та
+							Італії як «європейських поціновувачів жаб, печеніці та макаронів».
+
+						</p>
+						<p class="single__post-text">
+							Прохання України надати більше зброї останніми тижнями стає все більш актуальним, оскільки російські сили
+							розширюють контроль над східним регіоном Донбасу. Але війна підняла набагато ширші питання для Європейського
+							Союзу, оскільки він обговорює, як найкраще підтримати націю, яка зіткнулася з найбільшим вторгненням на
+							континент з часів Другої світової війни.
+
+						</p>
+						<p class="single__post-text">
+							Наразі відповіддю була військова допомога Києву та раунди каральних санкцій проти уряду пана Путіна та
+							багатьох його близьких. Країни ЄС також намагаються зменшити свою залежність від російської енергії.
+
+						</p>
+						<p class="single__post-text">
+							Водночас європейські лідери були змушені боротися з далекосяжними наслідками вторгнення — зростанням цін на
+							енергоносії та інфляцією, назріваючою глобальною продовольчою кризою, пов’язаною з блокуванням Росією
+							експорту зернових з України та відпливом мільйонів українських біженців до країни. сусідні народи.
+						</p>
+					</div>
+				</div>
+			</section>
+			<div class="author-single">
+				<div class="author-single__container">
+					<div class="author-single__content">
+						<div class="author-single__box">
+							<div class="author-single__info">
+								<div class="author-single__img-inner">
+									<picture><source srcset="img/about-content/authors/man.webp" type="image/webp"><img src="img/about-content/authors/man.png" alt="foto"></picture>
+								</div>
+								<div class="author-single__inner">
+									<div class="author-single__job">РЕДАКЦІЯ <span>DAY</span>COM</div>
+									<div class="author-single__name">Автор публікацїї<br><span>ТЕСЛЯР ОЛЕКСАНДР</span></div>
+								</div>
+							</div>
+							<div class="author-single__actions">
+								<div class="author-single__category category-grey">СУСПІЛЬСТВО</div>
+								<div class="author-single__date date-grey">17:00 16.06.2022</div>
+							</div>
+						</div>
+						<div class="author-single__socials">
+							<ul class="author-single__social-list">
+								<li class="author-single__social-item">
+									<a class="author-single__social-link icon-footer-telegram" href="#"></a>
+								</li>
+								<li class="author-single__social-item">
+									<a class="author-single__social-link icon-footer-viber" href="#"></a>
+								</li>
+								<li class="author-single__social-item">
+									<a class="author-single__social-link icon-footer-facebook" href="#"></a>
+								</li>
+								<li class="author-single__social-item">
+									<a class="author-single__social-link icon-footer-twitter" href="#"></a>
+								</li>
+								<li class="author-single__social-item">
+									<a class="author-single__social-link icon-footer-instagram" href="#"></a>
+								</li>
+								<li class="author-single__social-item">
+									<a class="author-single__social-link icon-youtube" href="#"></a>
+								</li>
+							</ul>
+							<div class="author-single__social-bredcrumbs">
+								Поширюйте публікації авторів <strong>DAY</strong>COM за допомогою власних соціальних мереж
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="additional-material">
+				<div class="additional-material__container">
+					<div class="additional-material__content">
+						<div class="additional-material__title">
+							МАТЕРІАЛ ЯКИЙ ПРОДОВЖУЄ АБО ДОПОВНЮЄ ПУБЛІКАЦЮ
+						</div>
+						<div class="additional-material__articles">
+							<div class="additional-material__article">
+								Європейські лідери запланували візит до Київа, щоб особисто
+								зустрітися із Президентом Володимиром Зеленським
+							</div>
+							<div class="additional-material__article">
+								Президент Румунії приєднаується до лідерів старої Європи у візиті в Україну
+							</div>
+							<div class="additional-material__article">
+								Борис Джонсон відвідав Київ без анонсів
+							</div>
+							<div class="additional-material__article">
+								Борис Джонсон предметно провів перемовини із Володимиром Зеленським
+							</div>
+						</div>
+						<div class="additional-material__breadcrumbs">
+							Якщо ви помітили помилку, виділіть необхідний текст і натисніть Ctrl + Enter, щоб повідомити про це редакцію
+						</div>
+						<div class="additional-material__tags">
+							<div class="additional-material__tag">
+								#ЄС
+							</div>
+							<div class="additional-material__tag">
+								#Лідери Європи
+							</div>
+							<div class="additional-material__tag">
+								#Макрон
+							</div>
+							<div class="additional-material__tag">
+								#Шольц
+							</div>
+							<div class="additional-material__tag">
+								#Україна
+							</div>
+							<div class="additional-material__tag">
+								#Київ
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__content">
+					<div class="footer__social">
+						<div class="footer__social">
+							<ul class="footer__social-list">
+								<li class="footer__social-item">
+									<a class="footer__social-link icon-footer-telegram" href="#"></a>
+								</li>
+								<li class="footer__social-item">
+									<a class="footer__social-link icon-footer-viber" href="#"></a>
+								</li>
+								<li class="footer__social-item">
+									<a class="footer__social-link icon-footer-facebook" href="#"></a>
+								</li>
+								<li class="footer__social-item">
+									<a class="footer__social-link icon-footer-twitter" href="#"></a>
+								</li>
+								<li class="footer__social-item">
+									<a class="footer__social-link icon-footer-instagram" href="#"></a>
+								</li>
+								<li class="footer__social-item">
+									<a class="footer__social-link icon-youtube" href="#"></a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="footer__actions">
+						<div class="footer__email">
+							<a href="mailto:slizer13@gmail.com" class="footer__email-link">slizer13@gmail.com</a>
+							<a href="mailto:slizer13@gmail.com" class="footer__email-link">slizer13@gmail.com</a>
+						</div>
+						<div class="footer__language">
+							<span>Мова сайту: </span>UA (українська)
+						</div>
+					</div>
+				</div>
+				<div class="footer__copyright">
+					<div class="footer__copyright-text">
+						<p>Дозволяється цитування матеріалів без отримання попередньої згоди редакції за умови розміщення у тексті
+							обов'язкового посилання на <a class="footer__copyright-link" href="#">daycom.com.ua</a>. Для
+							інтернет-видань обов'язково розміщення прямого, відкритого
+							для пошукових систем гіперпосилання на статті, що цитуються, не нижче другого абзацу в тексті або як
+							джерело. Порушення виняткових прав переслідується згідно із законодавством України. Матеріали з плашками:
+							«Новини бізнесу», «Промо», «Політичні новини», «Прес-реліз», «Офіційно» - публікуються на правах реклами.
+						</p>
+					</div>
+					<div class="footer__copyright-law">
+						<p>​Copyright © daycom.com.ua Всі права захищено.</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<div id="popup-serach" aria-hidden="true" class="popup popup-serach">
+		<div class="popup__wrapper popup-serach__wrapper">
+			<div class="popup__content popup-serach__content">
+				<h2 class="popup-serach__title">МАПА DAYCOM</h2>
+				<div class="popup-serach__text">
+					<p>Щоб мати доступ до останніх новин міста, яке вас цікавить, оберіть налаштування мапи у меню
+						<span>DAY</span>COM
+					</p>
+				</div>
+				<form class="popup-location__form">
+					<select name="Країна" id="">
+						<option value="Україна">Україна</option>
+						<option value="Польша">Польша</option>
+					</select>
+					<select name="Область" id="">
+						<option value="Дніпропетровська область">Дніпропетровська область</option>
+						<option value="Київська область">Київська область</option>
+					</select>
+					<select name="Місто" id="">
+						<option value="Кривий Ріг">Кривий Ріг</option>
+						<option value="Київ">Київ</option>
+						<option value="Львів">Львів</option>
+					</select>
+					<button class="popup-locaion__form-button" type="submit">Застосувати</button>
+				</form>
+				<div class="popup-location__text">
+					<p>
+						Ми робимо усе, щоб Ви отримували якісний доступ до інформації, яку опубліковано та публікуєтсья на
+						інформаційному
+						веб-сайті daycom.com.ua та пропонуємо вам ознайомитись із нашою <a href="#">Політикою
+							конфіденційності</a>
+						Daycom.
+					</p>
+					<p>
+						Відвідуючи веб-сайт Daycom, автоматично система відтворює інформаційно новинну стрічку міста, у якому Ви
+						знаходитесь. Якщо Вас цікавить інше місто, пропонуємо налаштувати необхідне відтворення стрічки новин
+						міста,
+						яке
+						Вас цікавить у цьому меню.
+					</p>
+				</div>
+				<button data-close type="popup-search__btn" class="popup__close"><picture><source srcset="img/icons/close.webp" type="image/webp"><img class="popup-search__img" src="img/icons/close.png" alt="close"></picture></button>
+			</div>
+		</div>
+	</div>
+
+	<div id="popup-autorization" aria-hidden="true" class="popup popup-autorization">
+		<div class="popup__wrapper popup-autorization__wrapper">
+			<div class="popup__content popup-autorization__content">
+				<h2 class="athorization-popup__title">СИСТЕМА АВТОРИЗАЦІЇ</h2>
+				<div class="athorization-popup__text">
+					<p>
+						Зареєструватися або авторизуватися на веб-сайті daycom.com.ua тимчасово не
+						доступну.
+					</p>
+					<p>
+						Приносимо свої вибачення за деякі незручності.
+					</p>
+				</div>
+				<button data-close type="athorization-popup__btn" class="popup__close"><picture><source srcset="img/icons/close.webp" type="image/webp"><img class="athorization-popup__img" src="img/icons/close.png" alt="close"></picture></button>
+			</div>
+		</div>
+	</div>
+	<script src="js/app.min.js?_v=20220927204112"></script>
+</body>
