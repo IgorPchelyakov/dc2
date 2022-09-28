@@ -1957,6 +1957,7 @@ body::after {
 
 .line-news-posts-1__item {
   position: relative;
+  padding-bottom: rem(15);
 }
 
 .line-news-posts-1__img-wrapper {
